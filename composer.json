@@ -1,0 +1,27 @@
+{
+    "name": "lieberweiss/laravel-tools",
+    "description": "Laravel tools",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Liwe\\Tools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frederic KOLLER",
+            "email": "frederic.koller@bulgari.com"
+        }
+    ],
+    "require-dev": {
+        "laravel/laravel": "^10.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liwe\\Tools\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
